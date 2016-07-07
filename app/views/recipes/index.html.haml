@@ -1,3 +1,11 @@
+.col-md-12
+.title-cont
+	%strong.omniinfo
+		Wanna discover what you can make with ingredients you have on your fridge?
+	= form_tag search_recipes_path, method: :get, class: "omnibox", role: "search"
+	%p
+		= text_field_tag :search, params[:search], class: "omnibox", placeholder: "Insert the ingredients separated by a {comma} or a {space} and press ENTER!"
+		= submit_tag "Search", name: nil, class: "btn btn-default omnibutton"
 - @recipe.each_slice(3) do |recipes|
 	.row
 		- recipes.each do |recipe|

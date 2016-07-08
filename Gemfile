@@ -12,6 +12,7 @@ gem 'cocoon', '~> 1.2', '>= 1.2.9'
 gem 'paperclip', '~> 5.0'
 gem 'devise', '~> 4.2'
 gem 'searchkick', '~> 1.3'
+gem 'httparty', '~> 0.13.7'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets

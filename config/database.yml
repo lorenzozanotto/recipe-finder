@@ -6,8 +6,8 @@
 #
 default: &default
   adapter: mysql2
-  username: mastro
-  password: mastro
+  username: # Your Database Username
+  password: # Your Database Password
   pool: 5
   timeout: 5000
 
